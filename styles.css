@@ -31,9 +31,12 @@ header p{
 }
 
 h1{
+    font-size: 64px;
+    font-weight: 600;
     font-family: 'Cormorant', serif;
     color: #BB8180;
     margin: 0;
+    line-height: 42px;
 
 }
 
@@ -41,6 +44,7 @@ p {
     color: #BB8180;
     margin: 0;
     font-family: Montserrat;
+    line-height: 23px;
 }
 
 .title{
@@ -185,15 +189,16 @@ nav a{
     border-right: 1px solid #BB8180;
 }
 
-button{
-    width: 264px;
+
+.createAccount{
+    width: 196px;
     height: 58px;
     background: #BB8180;
     margin: 42px 0 0 58.5px;
+    align-items: center;
+    padding: 12px 38px;
 
     display: flex;
-    justify-content: space-between;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -201,6 +206,11 @@ button{
     line-height: 22px;
     align-items: center;
     font-variant: small-caps;
+    white-space: nowrap;
+}
 
+.createAccount a{
     color: #E8E8E8;
+    text-decoration: none;
+    word-wrap: none;
 }
