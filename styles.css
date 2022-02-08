@@ -38,7 +38,7 @@ h1{
 }
 
 main{
-    background-image: url(/images/BG.jpg);
+    background-image: url(images/BG-landing-page.jpg);
     background-size: cover;
     background-position: right;
     background-position: bottom;
