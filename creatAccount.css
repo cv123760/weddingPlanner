@@ -1,0 +1,73 @@
+body{
+    background-image: url(images/BG-create-an-account.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    padding-top: 105.82px;
+    margin: 0 0 0 50% ;
+    text-align: center;
+    color: #BB8180;
+}
+label, button, input{
+    display: block;
+    text-align: left;
+}
+
+form, .oauth{
+    margin:0 auto;
+    width: fit-content;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.71533125rem;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 1.125rem;
+    margin-bottom: 8px;
+}
+
+input{
+    width: 424px;
+    height: 56px;
+    margin-bottom: 18px;
+}
+
+button{
+    display: flex;
+    width: 424px;
+    height: 54px;
+    align-items: center;  
+    justify-content: center;
+    margin-bottom: 13px;
+}
+
+button img{
+    margin-right: 16px;
+}
+
+
+.signUp{
+    background-color: #BB8180;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+}
+
+.faceBook{
+    background: #1877F2;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.google{
+    background: #FFFFFF;
+    color: #000000
+    
+}

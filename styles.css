@@ -12,6 +12,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 0 8.7%;
+    margin-top: 0;
 }
 
 .smallContainer{
@@ -50,6 +51,10 @@ a{
     color: #e8e8e8;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 .title p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -64,6 +69,40 @@ nav{
     align-items: center;
     padding: 0 29.3%;
 }
+
+.dropDown{
+    position: absolute;
+    margin-left: -44px;
+    display: none;
+    padding-top: 20px;
+}
+
+.styleContainer{
+    background-color: white;
+    padding: 36px 44px;
+    width: 484px;
+}
+
+.planYouWedding:hover .dropDown{
+    display: block;
+}
+
+.dropContainer{
+    border-left: 1px solid #bb8180;
+    height: 179px;
+    padding-left: 24px;
+}
+
+.dropContainer a{
+    color: black;
+    display: block;
+    margin: 6px 0;
+    font-family: 'Cormorant', serif;
+    font-size: 1.5rem;
+}
+
+
+
 
 .save{
     position: absolute;
@@ -123,6 +162,7 @@ nav{
     color: black;
     text-align: justify;
     line-height: 23px;
+    font-family: 'Cormorant', serif;
 }
 
 .createAccount{
@@ -135,7 +175,7 @@ nav{
     align-items: center;
 }
 
-.createAccount a{
+.createAccount p{
     position: relative;
     left: 31px
 }
